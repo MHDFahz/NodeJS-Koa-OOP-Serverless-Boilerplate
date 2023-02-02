@@ -1,7 +1,7 @@
 {
     "name": "koa-node-js-boilerplate",
     "version": "1.0.0",
-    "description": "",
+    "description": "Boilerplate for Node.js Koa RESTful API application with Serverless, Cors, Error Handling, Logger, Request Log Time",
     "main": "index.mjs",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
