@@ -1,5 +1,5 @@
 api:
-  handler: src/index.handler
-
-  events:
-    - httpApi: "*"
+    handler: src/index.handler
+    lambdaInsights: true
+    events:
+        - httpApi: '*'

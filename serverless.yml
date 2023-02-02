@@ -5,10 +5,13 @@ frameworkVersion: "3"
 plugins:
   - serverless-offline
   - serverless-webpack
+  - serverless-plugin-lambda-insights
 
 provider:
   name: aws
   runtime: nodejs16.x
   stage: dev
+  iamRoleStatements: ${file(./serverless/iam.yml)}
+
 
 functions: ${file(./serverless/functions.yml)}

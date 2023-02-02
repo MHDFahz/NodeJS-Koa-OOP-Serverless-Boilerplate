@@ -1,0 +1,11 @@
+- Effect: Allow
+  Action:
+      - s3:*
+  Resource: '*'
+- Effect: Allow
+  Action:
+      - es:ESHttpPost
+      - es:ESHttpPut
+      - es:ESHttpDelete
+      - es:ESHttpGet
+  Resource: '*'
