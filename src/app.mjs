@@ -3,7 +3,7 @@
  *
  * @author Fahis <fahis.skazi@gmail.com>
  *
- * @class
+ * @class App
  * @extends UntilService
  */
 import Koa from 'koa';
