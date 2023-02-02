@@ -1,4 +1,4 @@
-import UntilService from '../../utils/index.js';
+import UntilService from '../../utils/index.mjs';
 
 export default class CommonService extends UntilService {
     constructor() {

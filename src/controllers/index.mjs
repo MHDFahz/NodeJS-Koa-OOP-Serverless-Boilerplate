@@ -1,4 +1,4 @@
-import CommonService from './common/index.js';
+import CommonService from './common/index.mjs';
 
 /**
  * Class that serves as a container for all the controllers in the application.

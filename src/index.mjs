@@ -1,4 +1,4 @@
-import App from './app.js';
+import App from './app.mjs';
 
 const app = new App();
 

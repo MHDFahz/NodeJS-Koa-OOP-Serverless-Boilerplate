@@ -16,7 +16,7 @@ export default (options = {}) => {
     return bodyParser({
         ...options,
         onerror: () => {
-        throw new Error('Invalid format is detected in the request body');
+            throw new Error('Invalid format is detected in the request body');
         },
     });
 };

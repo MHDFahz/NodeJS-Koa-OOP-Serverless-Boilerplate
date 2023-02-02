@@ -1,6 +1,6 @@
 import cors from '@koa/cors';
 import debug from 'debug';
-import config from '../../config/index.js';
+import config from '../../config/index.mjs';
 
 const corsDebug = debug('koa:cors');
 

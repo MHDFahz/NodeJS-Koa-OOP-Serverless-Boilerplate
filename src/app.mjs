@@ -9,12 +9,12 @@
 import Koa from 'koa';
 import helmet from 'koa-helmet';
 import serverless from 'serverless-http';
-import bodyParser from './middleware/body-parser.js';
-import cors from './middleware/cors.js';
-import logResponseTime from './middleware/log-response-time.js';
-import requestId from './middleware/request-id.js';
-import RouterService from './routes/index.js';
-import UntilService from './utils/index.js';
+import bodyParser from './middleware/body-parser.mjs';
+import cors from './middleware/cors.mjs';
+import logResponseTime from './middleware/log-response-time.mjs';
+import requestId from './middleware/request-id.mjs';
+import RouterService from './routes/index.mjs';
+import UntilService from './utils/index.mjs';
 
 export default class App extends UntilService {
     /**

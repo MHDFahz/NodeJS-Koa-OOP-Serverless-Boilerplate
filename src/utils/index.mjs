@@ -1,6 +1,6 @@
-import config from '../../config/index.js';
-import Error from './error.js';
-import logger from './logger.js';
+import config from '../../config/index.mjs';
+import Error from './error.mjs';
+import logger from './logger.mjs';
 
 export default class UntilService {
     constructor() {

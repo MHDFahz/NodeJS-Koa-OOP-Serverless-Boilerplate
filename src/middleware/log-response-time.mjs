@@ -1,4 +1,4 @@
-import UntilService from '../utils/index.js';
+import UntilService from '../utils/index.mjs';
 /**
  * LogResponceMiddleware class is a middleware class that logs the response time for each HTTP request.
  * It extends the UntilService class from the ../utils/index.js module to access the logger.
