@@ -76,12 +76,6 @@ Please use the [issue tracker](https://github.com/MHDFahz/NodeJS-Koa-OOP-Serverl
 
 Like this project? Please give it a ★ on [GitHub](https://github.com/posquit0/awesome-engineer-onboarding)! It helps this project **a lot**.
 
-## See Also
-
--   [koa-logging](https://github.com/kasa-network/koa-logging) - A middleware that logs request and response with Pino.
--   [koa-request-id](https://github.com/kasa-network/koa-request-id) - A middleware that generates a unique Request ID for every incoming HTTP request.
--   [koa-http-client](https://github.com/kasa-network/koa-http-client) - A middleware that attachs HTTP client to communicate with the context during inter-service communications.
-
 ## License
 
 Provided under the terms of the [MIT License](https://github.com/MHDFahz/NodeJS-Koa-OOP-Serverless-Boilerplate/blob/master/LICENSE).
