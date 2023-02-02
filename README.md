@@ -74,7 +74,7 @@ Please use the [issue tracker](https://github.com/MHDFahz/NodeJS-Koa-OOP-Serverl
 
 ## Self Promotion
 
-Like this project? Please give it a ★ on [GitHub](https://github.com/posquit0/awesome-engineer-onboarding)! It helps this project **a lot**.
+Like this project? Please give it a ★ on [GitHub](https://github.com/MHDFahz)! It helps this project **a lot**.
 
 ## License
 
