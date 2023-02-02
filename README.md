@@ -32,10 +32,10 @@
 
 This boilerplate include the following features:
 
-- Logging to STDOUT/STDERR stream using
-- A super small and optimized oops structure
-- [Swagger](https://swagger.io/) API documentation
-- Unit Test and Integration Test along with Test Coverage using [Jest](https://facebook.github.io/jest/) testing framework
+-   Logging to STDOUT/STDERR stream using
+-   A super small and optimized oops structure
+-   [Swagger](https://swagger.io/) API documentation
+-   Unit Test and Integration Test along with Test Coverage using [Jest](https://facebook.github.io/jest/) testing framework
 
 ---
 
@@ -65,12 +65,12 @@ $ npm run devStart
 
 All test for this boilerplate uses following tools.
 
-- [Jest](https://github.com/facebook/jest)
-- [supertest](https://github.com/visionmedia/supertest) - Easy HTTP assertions for integration test
+-   [Jest](https://github.com/facebook/jest)
+-   [supertest](https://github.com/visionmedia/supertest) - Easy HTTP assertions for integration test
 
 #### Bug Reports & Feature Requests
 
-Please use the [issue tracker](https://github.com/posquit0/koa-rest-api-boilerplate/issues) to report any bugs or ask feature requests.
+Please use the [issue tracker](https://github.com/MHDFahz/NodeJS-Koa-OOP-Serverless-Boilerplate/issues) to report any bugs or ask feature requests.
 
 ## Self Promotion
 
@@ -78,12 +78,12 @@ Like this project? Please give it a ★ on [GitHub](https://github.com/posquit0/
 
 ## See Also
 
-- [koa-logging](https://github.com/kasa-network/koa-logging) - A middleware that logs request and response with Pino.
-- [koa-request-id](https://github.com/kasa-network/koa-request-id) - A middleware that generates a unique Request ID for every incoming HTTP request.
-- [koa-http-client](https://github.com/kasa-network/koa-http-client) - A middleware that attachs HTTP client to communicate with the context during inter-service communications.
+-   [koa-logging](https://github.com/kasa-network/koa-logging) - A middleware that logs request and response with Pino.
+-   [koa-request-id](https://github.com/kasa-network/koa-request-id) - A middleware that generates a unique Request ID for every incoming HTTP request.
+-   [koa-http-client](https://github.com/kasa-network/koa-http-client) - A middleware that attachs HTTP client to communicate with the context during inter-service communications.
 
 ## License
 
-Provided under the terms of the [MIT License](https://github.com/posquit0/koa-rest-api-boilerplate/blob/master/LICENSE).
+Provided under the terms of the [MIT License](https://github.com/MHDFahz/NodeJS-Koa-OOP-Serverless-Boilerplate/blob/master/LICENSE).
 
-Copyright © 2023, [Muhammed Fahis](http://www.posquit0.com).
+Copyright © 2023, [Muhammed Fahis](fahis.skazi@gmail.com).
