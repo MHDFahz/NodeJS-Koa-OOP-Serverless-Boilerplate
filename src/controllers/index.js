@@ -1,4 +1,4 @@
-import { CommonService } from "./common/index.js";
+import CommonService from './common/index.js';
 
 /**
  * Class that serves as a container for all the controllers in the application.
@@ -6,8 +6,8 @@ import { CommonService } from "./common/index.js";
  * @class Controller
  */
 export default class Controller {
-  constructor() {
-    // Register All Controller Here
-    this.common = new CommonService();
-  }
+    constructor() {
+        // Register All Controller Here
+        this.common = new CommonService();
+    }
 }

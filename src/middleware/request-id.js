@@ -1,6 +1,6 @@
-'use strict';
 import crypto from 'crypto';
 import debug from 'debug';
+
 const koaRequestId = debug('koa:request-id');
 
 /**

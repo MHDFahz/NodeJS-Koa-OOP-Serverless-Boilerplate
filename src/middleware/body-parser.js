@@ -1,8 +1,7 @@
-'use strict';
-
 import debug from 'debug';
 import bodyParser from 'koa-bodyparser';
-const koaDebug = debug('koa:bodyparser')
+
+const koaDebug = debug('koa:bodyparser');
 
 /**
  * Return middleware that parses HTTP request body.
@@ -18,6 +17,6 @@ export default (options = {}) => {
         ...options,
         onerror: () => {
         throw new Error('Invalid format is detected in the request body');
-        }
+        },
     });
 };

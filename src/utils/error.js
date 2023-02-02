@@ -1,4 +1,4 @@
-import { STATUS_CODES } from "http";
+import { STATUS_CODES } from 'http';
 
 class Errors extends Error {
   static toJSON() {

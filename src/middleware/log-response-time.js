@@ -16,6 +16,7 @@ class LogResponceMiddleware extends UntilService {
         super();
         this.logResponseTime = this.logResponseTime.bind(this);
     }
+
     /**
      * A middleware function that logs the response time for each HTTP request.
      * Gets the start time of the request using Date.now().

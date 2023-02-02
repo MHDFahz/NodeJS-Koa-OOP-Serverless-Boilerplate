@@ -1,5 +1,5 @@
-import Router from "koa-router";
-import common from "./common/index.js";
+import Router from 'koa-router';
+import common from './common/index.js';
 
 /**
  * Class that creates and manages the Koa Router.
@@ -23,7 +23,7 @@ export default class RouterService {
     this.api.use(common);
 
     // Starting endpoint "/api" for router
-    this.router.use("/api", this.api.routes());
+    this.router.use('/api', this.api.routes());
   }
 
   /**
