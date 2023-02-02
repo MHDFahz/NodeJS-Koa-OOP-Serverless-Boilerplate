@@ -1,13 +1,13 @@
 import { STATUS_CODES } from 'http';
 
 class Errors extends Error {
-  static toJSON() {
-    return {
-      message: this.message,
-      statusCode: this.statusCode,
-      name: this.name,
-    };
-  }
+    static toJSON() {
+        return {
+            message: this.message,
+            statusCode: this.statusCode,
+            name: this.name,
+        };
+    }
 }
 
 /**
@@ -19,16 +19,16 @@ class Errors extends Error {
  * @since 1.0.0
  */
 class AuthenticationError extends Errors {
-  constructor(message = STATUS_CODES[401]) {
-    super(message);
-    this.message = message;
-    this.statusCode = 401;
+    constructor(message = STATUS_CODES[401]) {
+        super(message);
+        this.message = message;
+        this.statusCode = 401;
 
-    this.name = this.constructor.name;
-    Errors.captureStackTrace(this, this.constructor);
-    // Call the toJSON method on the Error class
-    this.toJSON = Errors.toJSON;
-  }
+        this.name = this.constructor.name;
+        Errors.captureStackTrace(this, this.constructor);
+        // Call the toJSON method on the Error class
+        this.toJSON = Errors.toJSON;
+    }
 }
 
 /**
@@ -40,16 +40,16 @@ class AuthenticationError extends Errors {
  * @since 1.0.0
  */
 class AuthorizationError extends Errors {
-  constructor(message = STATUS_CODES[403]) {
-    super(message);
-    this.message = message;
-    this.statusCode = 403;
+    constructor(message = STATUS_CODES[403]) {
+        super(message);
+        this.message = message;
+        this.statusCode = 403;
 
-    this.name = this.constructor.name;
-    Errors.captureStackTrace(this, this.constructor);
-    // Call the toJSON method on the Error class
-    this.toJSON = Errors.toJSON;
-  }
+        this.name = this.constructor.name;
+        Errors.captureStackTrace(this, this.constructor);
+        // Call the toJSON method on the Error class
+        this.toJSON = Errors.toJSON;
+    }
 }
 
 /**
@@ -61,16 +61,16 @@ class AuthorizationError extends Errors {
  * @since 1.0.0
  */
 class NotFoundError extends Errors {
-  constructor(message = STATUS_CODES[404]) {
-    super(message);
-    this.message = message;
-    this.statusCode = 404;
+    constructor(message = STATUS_CODES[404]) {
+        super(message);
+        this.message = message;
+        this.statusCode = 404;
 
-    this.name = this.constructor.name;
-    Errors.captureStackTrace(this, this.constructor);
-    // Call the toJSON method on the Error class
-    this.toJSON = Errors.toJSON;
-  }
+        this.name = this.constructor.name;
+        Errors.captureStackTrace(this, this.constructor);
+        // Call the toJSON method on the Error class
+        this.toJSON = Errors.toJSON;
+    }
 }
 
 /**
@@ -82,16 +82,16 @@ class NotFoundError extends Errors {
  * @since 1.0.0
  */
 class ValidationError extends Errors {
-  constructor(message = STATUS_CODES[422]) {
-    super(message);
-    this.message = message;
-    this.statusCode = 422;
+    constructor(message = STATUS_CODES[422]) {
+        super(message);
+        this.message = message;
+        this.statusCode = 422;
 
-    this.name = this.constructor.name;
-    Errors.captureStackTrace(this, this.constructor);
-    // Call the toJSON method on the Error class
-    this.toJSON = Errors.toJSON;
-  }
+        this.name = this.constructor.name;
+        Errors.captureStackTrace(this, this.constructor);
+        // Call the toJSON method on the Error class
+        this.toJSON = Errors.toJSON;
+    }
 }
 
 /**
@@ -103,16 +103,16 @@ class ValidationError extends Errors {
  * @since 1.0.0
  */
 class ServerError extends Errors {
-  constructor(message = STATUS_CODES[500]) {
-    super(message);
-    this.message = message;
-    this.statusCode = 500;
+    constructor(message = STATUS_CODES[500]) {
+        super(message);
+        this.message = message;
+        this.statusCode = 500;
 
-    this.name = this.constructor.name;
-    Errors.captureStackTrace(this, this.constructor);
-    // Call the toJSON method on the Error class
-    this.toJSON = Errors.toJSON;
-  }
+        this.name = this.constructor.name;
+        Errors.captureStackTrace(this, this.constructor);
+        // Call the toJSON method on the Error class
+        this.toJSON = Errors.toJSON;
+    }
 }
 
 /**
@@ -124,23 +124,30 @@ class ServerError extends Errors {
  * @since 1.0.0
  */
 class NotImplementedError extends Errors {
-  constructor(message = STATUS_CODES[501]) {
-    super(message);
-    this.message = message;
-    this.statusCode = 501;
+    constructor(message = STATUS_CODES[501]) {
+        super(message);
+        this.message = message;
+        this.statusCode = 501;
 
-    this.name = this.constructor.name;
-    Errors.captureStackTrace(this, this.constructor);
-    // Call the toJSON method on the Error class
-    this.toJSON = Errors.toJSON;
-  }
+        this.name = this.constructor.name;
+        Errors.captureStackTrace(this, this.constructor);
+        // Call the toJSON method on the Error class
+        this.toJSON = Errors.toJSON;
+    }
 }
 
+/**
+ * This module exports various error classes that can be used to represent HTTP errors in a Koa server application.
+ * @module errors
+ * @author Fahis <fahis.skazi@gmail.com>
+ * @since 1.0.0
+ * @license MIT
+ */
 export default {
-  AuthenticationError,
-  AuthorizationError,
-  NotFoundError,
-  ServerError,
-  NotImplementedError,
-  ValidationError,
+    AuthenticationError,
+    AuthorizationError,
+    NotFoundError,
+    ServerError,
+    NotImplementedError,
+    ValidationError,
 };
