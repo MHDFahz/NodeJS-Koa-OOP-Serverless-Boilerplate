@@ -1,0 +1,5 @@
+api:
+  handler: src/index.handler
+
+  events:
+    - httpApi: "*"
