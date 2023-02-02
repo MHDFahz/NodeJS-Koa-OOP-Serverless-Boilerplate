@@ -86,6 +86,7 @@ export default class App extends UntilService {
     });
 
     this.setUpSignalHandlers();
+
     this.handler = serverless(app);
   }
 }

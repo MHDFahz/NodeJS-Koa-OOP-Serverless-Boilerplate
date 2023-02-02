@@ -62,7 +62,6 @@ export default class UntilService {
   /**
    * Set up signal handlers.
    *
-   * @param {Object} logger - An object with a `info` and `error` method for logging information and errors.
    * @returns {boolean} - Returns `true` if the signal handlers were set up successfully, `false` otherwise.
    */
   setUpSignalHandlers = () => {
