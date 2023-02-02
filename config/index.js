@@ -16,10 +16,12 @@ if (env === "development") {
 }
 
 const config = {
-  PORT: process.env.PORT || 8001,
+  PORT: process.env.PORT || 8002,
   middlewares: {
-    allowedDomains: process.env.ALLOWED_DOMAINS || "http://localhost:3000,https://localhost:3001,http://localhost:3002",
-    },
+    allowedDomains:
+      process.env.ALLOWED_DOMAINS ||
+      "http://localhost:3000,https://localhost:3001,http://localhost:3002",
+  },
   NODE_ENV: env,
 };
 
