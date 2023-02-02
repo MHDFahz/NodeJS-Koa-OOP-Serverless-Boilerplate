@@ -1,4 +1,4 @@
-import { Context } from "koa";
+import Koa from "koa";
 import UntilService from "../../utils/index.js";
 
 export class CommonService extends UntilService {
@@ -8,13 +8,13 @@ export class CommonService extends UntilService {
     this.getPing = this.getPing.bind(this);
   }
   /**
-   * @param {Context} ctx The Koa Context
+   * @param {Koa.Context} ctx The Koa Context
    */
   async getinital(ctx) {
     ctx.response.body = "ok";
   }
   /**
-   * @param {Context} ctx The Koa Context
+   * @param {Koa.Context} ctx The Koa Context
    */
   async getPing(ctx) {
     ctx.throw(new this.NotImplementedError("Some Error Occur"));

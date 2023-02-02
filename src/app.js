@@ -81,6 +81,26 @@ export default class App extends UntilService {
       this.logger.debug(`${methods.padEnd(7)} ${route.path.padEnd(20)}`);
     });
 
+    const signals = ["SIGINT", "SIGHUP", "SIGTERM"];
+    const rejectionEvents = ["uncaughtException", "unhandledRejection"];
+
+    try {
+      signals.forEach((signal) => {
+        process.on(
+          signal,
+          () => {
+            logger.info(`Received ${signal} signal`);
+            // Perform any necessary cleanup before exiting
+            process.exit();
+          },
+          { rejectionEvents }
+        );
+      });
+    } catch (error) {
+      logger.error(`Error setting up signal handlers :: ${error}`);
+      return false;
+    }
+
     this.server = app.listen(this.config.PORT, () => {
       this.logger.info(`Koa Server Listening on ${this.config.PORT}`);
     });
