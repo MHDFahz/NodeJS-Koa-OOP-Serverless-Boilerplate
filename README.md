@@ -8,23 +8,22 @@
 </p>
 
 <div align="center">
-  <a href="https://circleci.com/gh/posquit0/koa-rest-api-boilerplate">
-    <img alt="CircleCI" src="https://circleci.com/gh/posquit0/koa-rest-api-boilerplate.svg?style=shield" />
-  </a>
-  <a href="https://codecov.io/gh/posquit0/koa-rest-api-boilerplate">
-    <img alt="Coverage Status" src="https://codecov.io/gh/posquit0/koa-rest-api-boilerplate/branch/master/graph/badge.svg" />
-  </a>
-  <a href="https://david-dm.org/posquit0/koa-rest-api-boilerplate">
-    <img alt="npm" src="https://img.shields.io/david/posquit0/koa-rest-api-boilerplate.svg?style=flat-square" />
-  </a>
-  <a href="https://opensource.org/licenses/mit-license.php">
-    <img alt="MIT Licence" src="https://badges.frapsoft.com/os/mit/mit.svg?v=103" />
-  </a>
-  <a href="https://github.com/ellerbrock/open-source-badge/">
-    <img alt="Open Source Love" src="https://badges.frapsoft.com/os/v1/open-source.svg?v=103" />
-  </a>
   
-  <a href="https://communityinviter.com/apps/koa-js/koajs" rel="KoaJs Slack Community">![KoaJs Slack](https://img.shields.io/badge/Koa.Js-Slack%20Channel-Slack.svg?longCache=true&style=for-the-badge)</a>
+## TECH STACK
+![NODEJS](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
+![JEST](https://img.shields.io/badge/Jest-323330?style=for-the-badge&logo=Jest&logoColor=white)
+
+![KOA-JS](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)
+[![koa](https://img.shields.io/badge/koa-framework-blue.svg)](https://koajs.com/)
+
+[![Serverless Lambda](https://img.shields.io/badge/Serverless-Lambda-orange.svg)](https://serverless.com/learn/quick-start/)
+[![MVC Architecture](https://img.shields.io/badge/MVC-Architecture-lightgrey.svg)](https://en.wikipedia.org/wiki/Model–view–controller)
+
+---
+
+[![Jest](https://img.shields.io/badge/Jest-testing%20library-brightgreen.svg)](https://jestjs.io/)
+[![SuperTest](https://img.shields.io/badge/SuperTest-HTTP%20assertions%20library-brightgreen.svg)](https://github.com/visionmedia/supertest)
+
 </div>
 
 <br />
@@ -35,8 +34,8 @@ This boilerplate include the following features:
 
 - Logging to STDOUT/STDERR stream using
 - A super small and optimized oops structure
-- [Swagger](https://swagger.io/) API documentation comming soon
-- Unit Test and Integration Test along with Test Coverage using [Jest](https://facebook.github.io/jest/) testing framework will coming soon
+- [Swagger](https://swagger.io/) API documentation
+- Unit Test and Integration Test along with Test Coverage using [Jest](https://facebook.github.io/jest/) testing framework
 
 ---
 
@@ -61,33 +60,6 @@ $ npm install
 # Run normally
 $ npm run devStart
 ```
-
-<!-- ### Test
-
-```zsh
-# Test
-$ yarn test                           # Run all test
-$ yarn test:unit                      # Run only unit test
-$ yarn test:integration               # Run only integration test
-# Test (Watch Mode for development)
-$ yarn test:watch                     # Run all test with watch mode
-$ yarn test:watch:unit                # Run only unit test with watch mode
-$ yarn test:watch:integration         # Run only integration test with watch mode
-# Test Coverage
-$ yarn test:coverage                  # Calculate the coverage of all test
-$ yarn test:coverage:unit             # Calculate the coverage of unit test
-$ yarn test:coverage:integration      # Calculate the coverage of integration test
-# Test consistent coding style (Lint)
-$ yarn lint                           # Lint all sourcecode
-$ yarn lint:app                       # Lint app sourcecode
-$ yarn lint:test                      # Lint test sourcecode
-```
-
-### Archive
-
-```zsh
-$ yarn pack
-``` -->
 
 ## Test
 
